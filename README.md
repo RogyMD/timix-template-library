@@ -27,7 +27,7 @@ If you can't find a template that suits your needs, you can easily create your o
 1. Browse the category folders.
 2. Find a timer that fits your needs.
 3. Download the `.cdowntmpl` file.  
-   ![How to download a file](download_template.jpeg)
+   <img src="download_template.jpeg" alt="How to download a file" width="200"/>
 4. Open Timix and import it.
 
 > 💡 If you're downloading on iPhone or iPad, we recommend using [Brave Browser](https://apps.apple.com/app/brave-browser-search-engine/id1052879175) (or another browser) instead of Safari. Safari may add a `.txt` extension to `.cdowntmpl` files.
