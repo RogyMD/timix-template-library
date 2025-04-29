@@ -47,7 +47,7 @@ To add your template independently:
 4. Update the appropriate folder's README by listing your template with a short description and direct link.
 5. Open a Pull Request.
 
-Or simply email me your template at [timix@rogy.app](timix@rogy.app) and I'll add it for you.
+Or simply email me your template at [timix@rogy.app](mailto:timix@rogy.app?subject=Sharing%20a%20Timix%20Template) and I'll add it for you.
 
 Thank you for helping expand the library!
 
