@@ -1,0 +1,59 @@
+{
+  "title" : "🤹‍♂️Juggle",
+  "timers" : [
+    {
+      "duration" : 120,
+      "title" : "Warmup",
+      "endTriggers" : [
+        {
+          "id" : "flashScreen",
+          "value" : 2
+        },
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "sound" : {
+              "_0" : "bell"
+            }
+          }
+        }
+      ],
+      "color" : "00B800"
+    },
+    {
+      "duration" : 600,
+      "title" : "Practice 4 Balls Async",
+      "endTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "sound" : {
+              "_0" : "succes"
+            }
+          }
+        },
+        {
+          "id" : "flashScreen",
+          "value" : 3
+        }
+      ],
+      "color" : "FF3A2F"
+    },
+    {
+      "duration" : 180,
+      "title" : "Freestyle",
+      "endTriggers" : [
+        {
+          "value" : {
+            "sound" : {
+              "_0" : "bell"
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ],
+      "color" : "AF52DE"
+    }
+  ],
+  "version" : 1
+}

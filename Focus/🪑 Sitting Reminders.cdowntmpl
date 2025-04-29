@@ -1,0 +1,261 @@
+{
+  "timers" : [
+    {
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        }
+      ],
+      "duration" : 420,
+      "title" : "Have a gentle stretch",
+      "color" : "54BEF0"
+    },
+    {
+      "color" : "FF392E",
+      "duration" : 420.00000600000004,
+      "title" : "Keep Your Back Straight and Blink",
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ]
+    },
+    {
+      "duration" : 420.00000600000004,
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        }
+      ],
+      "title" : "Stretch Your Body",
+      "color" : "FFCC00"
+    },
+    {
+      "color" : "FF392E",
+      "duration" : 420.00000600000004,
+      "title" : "Keep Your Back Straight and Blink",
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "title" : "Stretch Your Body",
+      "duration" : 420.00000600000004,
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        }
+      ],
+      "color" : "FFCC00"
+    },
+    {
+      "color" : "FF392E",
+      "title" : "Keep Your Back Straight and Blink",
+      "duration" : 420.00000600000004,
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ]
+    },
+    {
+      "title" : "Stretch Your Body",
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ],
+      "color" : "FFCC00",
+      "duration" : 420.00000600000004
+    },
+    {
+      "title" : "Keep Your Back Straight and Blink",
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        }
+      ],
+      "color" : "FF392E",
+      "duration" : 420.00000600000004
+    },
+    {
+      "title" : "Stretch Your Body",
+      "color" : "FFCC00",
+      "duration" : 420.00000600000004,
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ]
+    },
+    {
+      "title" : "Keep Your Back Straight and Blink",
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        }
+      ],
+      "duration" : 420.00000600000004,
+      "color" : "FF392E"
+    },
+    {
+      "title" : "Stretch Your Body",
+      "color" : "FFCC00",
+      "duration" : 420.00000600000004,
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ],
+      "title" : "Keep Your Back Straight and Blink",
+      "color" : "FF392E",
+      "duration" : 420.00000600000004
+    },
+    {
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        }
+      ],
+      "title" : "Stretch Your Body",
+      "color" : "FFCC00",
+      "duration" : 420.00000600000004
+    },
+    {
+      "title" : "Keep Your Back Straight and Blink",
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        }
+      ],
+      "duration" : 420.00000600000004,
+      "color" : "FF392E"
+    },
+    {
+      "title" : "Stretch Your Body",
+      "duration" : 420.00000600000004,
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        }
+      ],
+      "color" : "FFCC00"
+    },
+    {
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        }
+      ],
+      "duration" : 420.00000600000004,
+      "color" : "FF392E",
+      "title" : "Keep Your Back Straight and Blink"
+    },
+    {
+      "title" : "Stretch Your Body",
+      "color" : "FFCC00",
+      "duration" : 420.00000600000004,
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ]
+    }
+  ],
+  "title" : "🪑 Sitting Reminders",
+  "version" : 1
+}

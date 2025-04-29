@@ -1,0 +1,444 @@
+{
+  "timers" : [
+    {
+      "title" : "light jogging",
+      "duration" : 90,
+      "color" : "FECC00",
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        },
+        {
+          "id" : "workout",
+          "value" : "jumpRope"
+        }
+      ]
+    },
+    {
+      "title" : "leg swings",
+      "duration" : 90,
+      "color" : "28FC00",
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "title" : "Arm and Wrist Circles",
+      "duration" : 90,
+      "color" : "00C7BE",
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "title" : "Rope basics",
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : "Jump to a steady pace, syncing jumps"
+            }
+          }
+        }
+      ],
+      "duration" : 35,
+      "color" : "FA0087"
+    },
+    {
+      "title" : "Rest",
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ],
+      "duration" : 30,
+      "color" : "00C7BE"
+    },
+    {
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ],
+      "title" : "Jump",
+      "duration" : 30,
+      "color" : "D00018"
+    },
+    {
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ],
+      "title" : "Rest",
+      "duration" : 30,
+      "color" : "00C7BE"
+    },
+    {
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ],
+      "title" : "Jump",
+      "duration" : 30,
+      "color" : "D00018"
+    },
+    {
+      "color" : "00C7BE",
+      "duration" : 30,
+      "title" : "Rest",
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ]
+    },
+    {
+      "color" : "D00018",
+      "duration" : 30,
+      "title" : "Jump",
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ]
+    },
+    {
+      "color" : "00C7BE",
+      "duration" : 30,
+      "title" : "Rest",
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "color" : "D00018",
+      "duration" : 30,
+      "title" : "Jump",
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ]
+    },
+    {
+      "color" : "00C7BE",
+      "duration" : 30,
+      "title" : "Rest",
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ]
+    },
+    {
+      "color" : "D00018",
+      "duration" : 30,
+      "title" : "Jump",
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "color" : "00C7BE",
+      "duration" : 30,
+      "title" : "Rest",
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ]
+    },
+    {
+      "color" : "D00018",
+      "duration" : 30,
+      "title" : "Jump",
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "color" : "00C7BE",
+      "duration" : 15,
+      "title" : "Rest",
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "title" : "Wrist Control Drill",
+      "duration" : 35,
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : "Stand still and spin the rope using just your wrists without jumping. "
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ],
+      "color" : "FA0087"
+    },
+    {
+      "title" : "Rest",
+      "duration" : 15,
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        }
+      ],
+      "color" : "00C7BE"
+    },
+    {
+      "title" : "Spin the rope",
+      "duration" : 30,
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        }
+      ],
+      "color" : "D00018"
+    },
+    {
+      "title" : "Rest",
+      "duration" : 15,
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ],
+      "color" : "00C7BE"
+    },
+    {
+      "title" : "Spin the rope",
+      "duration" : 30,
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        }
+      ],
+      "color" : "D00018"
+    },
+    {
+      "title" : "Rest",
+      "duration" : 15,
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ],
+      "color" : "00C7BE"
+    },
+    {
+      "title" : "Spin the rope",
+      "duration" : 30,
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ],
+      "color" : "D00018"
+    },
+    {
+      "title" : "Rest",
+      "duration" : 15,
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ],
+      "color" : "00C7BE"
+    },
+    {
+      "title" : "Spin the rope",
+      "duration" : 30,
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        }
+      ],
+      "color" : "D00018"
+    },
+    {
+      "title" : "Rest",
+      "duration" : 30,
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ],
+      "color" : "00C7BE"
+    },
+    {
+      "title" : "Cool-Down Stretching",
+      "duration" : 120,
+      "endTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : "Rest in child pose"
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ],
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : "Stretch claves, hamstrings and shoulders in Downward facing dog"
+            }
+          },
+          "id" : "audioTrigger"
+        },
+        {
+          "value" : "functionalStrengthTraining",
+          "id" : "workout"
+        }
+      ],
+      "color" : "00BAFB"
+    }
+  ],
+  "title" : "🪢Rope jumping (Day 4-6)",
+  "version" : 1
+}

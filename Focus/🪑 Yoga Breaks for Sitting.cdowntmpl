@@ -1,0 +1,125 @@
+{
+  "version" : 1,
+  "title" : "🪑 Yoga Breaks for Sitting",
+  "timers" : [
+    {
+      "duration" : 900,
+      "color" : "AF52DE",
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : "Have a Gentle stretch"
+            }
+          }
+        }
+      ],
+      "title" : "Gentle Stretch"
+    },
+    {
+      "duration" : 900,
+      "title" : "Seated Cat-Cow",
+      "color" : "30ADE6",
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : "Seated Cat-Cow. Inhale, arch. Exhale, round."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "duration" : 900,
+      "color" : "A2835E",
+      "title" : "Seated Spinal Twist",
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : "Seated Twist. Turn gently."
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ]
+    },
+    {
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : "Stand and Forward Fold."
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ],
+      "duration" : 900,
+      "color" : "FF5733",
+      "title" : "Standing Forward Fold"
+    },
+    {
+      "duration" : 900,
+      "color" : "FFC300",
+      "title" : "Seated Side Stretch",
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : "Side stretch. Reach up."
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ]
+    },
+    {
+      "title" : "Seated Shoulder Opener",
+      "duration" : 900,
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : "Shoulder Opener. Clasp hands, open chest."
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ],
+      "color" : "DAF7A6"
+    },
+    {
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : "Chest opener. Breathe deeply."
+            }
+          }
+        }
+      ],
+      "duration" : 900,
+      "endTriggers" : [
+        {
+          "id" : "pauseCountdown",
+          "value" : false
+        },
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : "Take a deep breath and go for a walk"
+            }
+          }
+        }
+      ],
+      "title" : "Standing Chest Opener",
+      "color" : "900C3F"
+    }
+  ]
+}

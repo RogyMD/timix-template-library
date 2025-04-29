@@ -4,19 +4,17 @@ Timers made to support everyday home tasks — cleaning, organizing, and taking 
 
 ## Available Templates
 
-*(No templates yet)* — Contribute a template to bring more ease to daily routines!
+- [🧺laundry](🧺laundry.cdowntmpl) — 2h15m timer for a standard laundry cycle.
 
 ---
 
 ### How to Add a Template
 
-1. Add your `.cdowntmpl` file to this folder. Use a clear title with an emoji (e.g., `🛏️Laundry Timer.cdowntmpl`).
-2. Update this README by listing your template with a short description and a direct link.
-
-**Example:**
-
-```markdown
-- **🛏️ Laundry Timer** — 40 minutes for a standard washing cycle. [🛏️Laundry Timer.cdowntmpl](🛏️Laundry Timer.cdowntmpl)
-```
-
-Thank you for helping make home life a little smoother!
+1. Add your `.cdowntmpl` file to this folder. Use a clear title with an emoji (e.g., `🧹Vacuuming.cdowntmpl`).
+2. Update the "Available Templates" list above:
+    - Follow the format:
+      ```
+      - [🧹Vacuuming](🧹Vacuuming.cdowntmpl) — Timer for a quick vacuum session.
+      ```
+    - Keep the list sorted alphabetically based on the emoji and name.
+    - Keep descriptions short and clear.

@@ -4,19 +4,18 @@ Timers designed to support rest, relaxation, meditation, and sleep.
 
 ## Available Templates
 
-*(No templates yet)* — Contribute a template to help others unwind and recharge!
+- [🧘‍♂️Guided Meditation on Gratitude](🧘‍♂️Guided%20Meditation%20on%20Gratitude.cdowntmpl) — 10-minute session to reflect and reset.
+- [🦥Power Nap](🦥Power%20Nap.cdowntmpl) — 15-minute timer for a refreshing nap.
 
 ---
 
 ### How to Add a Template
 
-1. Add your `.cdowntmpl` file to this folder. Use a clear title with an emoji (e.g., `🦥Power Nap.cdowntmpl`).
-2. Update this README by listing your template with a short description and a direct link.
-
-**Example:**
-
-```markdown
-- **🦥 Power Nap** — 15-minute timer for a refreshing nap. [🦥Power Nap.cdowntmpl](🦥Power Nap.cdowntmpl)
-```
-
-Thank you for helping build a more mindful and balanced world!
+1. Add your `.cdowntmpl` file to this folder. Use a clear title with an emoji (e.g., `🛌Evening Wind Down.cdowntmpl`).
+2. Update the "Available Templates" list above:
+    - Follow the format:
+      ```
+      - [🛌Evening Wind Down](🛌Evening%20Wind%20Down.cdowntmpl) — Timer to ease into restful sleep.
+      ```
+    - Keep the list sorted alphabetically based on the emoji and name.
+    - Keep descriptions short and clear.

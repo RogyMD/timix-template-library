@@ -1,0 +1,48 @@
+{
+  "title" : "🦥Power Nap",
+  "timers" : [
+    {
+      "title" : "10 minutes passed",
+      "color" : "007AFF",
+      "duration" : 600,
+      "endTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          },
+          "id" : "audioTrigger"
+        },
+        {
+          "value" : 2,
+          "id" : "vibrate"
+        }
+      ]
+    },
+    {
+      "title" : "wake up!",
+      "color" : "FF392E",
+      "duration" : 300,
+      "endTriggers" : [
+        {
+          "value" : {
+            "sound" : {
+              "_0" : "clock"
+            }
+          },
+          "id" : "audioTrigger"
+        },
+        {
+          "value" : true,
+          "id" : "pauseCountdown"
+        },
+        {
+          "value" : 1,
+          "id" : "vibrate"
+        }
+      ]
+    }
+  ],
+  "version" : 1
+}

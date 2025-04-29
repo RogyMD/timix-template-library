@@ -1,0 +1,193 @@
+{
+  "version" : 1,
+  "title" : "🧘‍♂️Yoga for Back",
+  "timers" : [
+    {
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        },
+        {
+          "id" : "vibrate",
+          "value" : 3
+        },
+        {
+          "id" : "workout",
+          "value" : "mindAndBody"
+        }
+      ],
+      "duration" : 180,
+      "title" : "Relaxing body scan",
+      "color" : "2FB0C7"
+    },
+    {
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        }
+      ],
+      "duration" : 60,
+      "title" : "breath in your chest",
+      "color" : "32C659"
+    },
+    {
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        },
+        {
+          "id" : "workout",
+          "value" : "yoga"
+        }
+      ],
+      "duration" : 30,
+      "title" : "Reclining twists on the left",
+      "color" : "FFCC01"
+    },
+    {
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ],
+      "duration" : 30,
+      "title" : "Reclining twists on the right",
+      "color" : "F50069"
+    },
+    {
+      "color" : "32C659",
+      "title" : "Stretch arms and legs then Hug your knees to the chest",
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ],
+      "duration" : 60
+    },
+    {
+      "title" : "Come to Easy Pose and start cat and cow stretch",
+      "color" : "C300C4",
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        }
+      ],
+      "duration" : 90
+    },
+    {
+      "title" : "Side stretch with seated twist ",
+      "color" : "32C659",
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        }
+      ],
+      "duration" : 360
+    },
+    {
+      "color" : "0300AA",
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        }
+      ],
+      "title" : "sun salutation with low lunge",
+      "duration" : 360
+    },
+    {
+      "color" : "C90000",
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ],
+      "title" : "high lunge to warrior 2",
+      "duration" : 360
+    },
+    {
+      "color" : "32C659",
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ],
+      "title" : "kneeling pose to eagle arms and easy camel",
+      "duration" : 360
+    },
+    {
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ],
+      "color" : "76E9FE",
+      "duration" : 360,
+      "title" : "corpse pose and surrender",
+      "endTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : "thank you"
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "title" : "🍅Pomodoro",
+  "version" : 1,
+  "timers" : [
+    {
+      "color" : "FE3A2F",
+      "duration" : 1800,
+      "endTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : "Have a Break"
+            }
+          },
+          "id" : "audioTrigger"
+        },
+        {
+          "value" : 3,
+          "id" : "flashScreen"
+        }
+      ],
+      "title" : "Set 1"
+    },
+    {
+      "color" : "00C7BE",
+      "title" : "Break",
+      "duration" : 600,
+      "endTriggers" : [
+        {
+          "value" : false,
+          "id" : "pauseCountdown"
+        },
+        {
+          "value" : {
+            "sound" : {
+              "_0" : "buzzer"
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ]
+    },
+    {
+      "color" : "FE3A2F",
+      "endTriggers" : [
+        {
+          "value" : {
+            "sound" : {
+              "_0" : "level_up"
+            }
+          },
+          "id" : "audioTrigger"
+        },
+        {
+          "value" : true,
+          "id" : "pauseCountdown"
+        }
+      ],
+      "title" : "Set 2",
+      "duration" : 1800
+    },
+    {
+      "title" : "Break",
+      "endTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "sound" : {
+              "_0" : "buzzer"
+            }
+          }
+        },
+        {
+          "id" : "pauseCountdown",
+          "value" : false
+        }
+      ],
+      "duration" : 600,
+      "color" : "33C758"
+    },
+    {
+      "title" : "Set 3",
+      "duration" : 1800,
+      "endTriggers" : [
+        {
+          "value" : {
+            "sound" : {
+              "_0" : "violin"
+            }
+          },
+          "id" : "audioTrigger"
+        },
+        {
+          "id" : "pauseCountdown",
+          "value" : true
+        }
+      ],
+      "color" : "FE3A2F"
+    },
+    {
+      "title" : "Break",
+      "duration" : 1200,
+      "color" : "FEFB00",
+      "endTriggers" : [
+        {
+          "value" : {
+            "sound" : {
+              "_0" : "buzzer"
+            }
+          },
+          "id" : "audioTrigger"
+        },
+        {
+          "value" : false,
+          "id" : "pauseCountdown"
+        }
+      ]
+    }
+  ]
+}

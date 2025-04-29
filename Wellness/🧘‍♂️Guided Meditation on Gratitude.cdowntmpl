@@ -1,0 +1,180 @@
+{
+  "timers" : [
+    {
+      "color" : "32C659",
+      "title" : "Sit",
+      "duration" : 15
+    },
+    {
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : "Relax as much as possible. Take a few deep breaths."
+            }
+          },
+          "id" : "audioTrigger"
+        },
+        {
+          "value" : 3,
+          "id" : "vibrate"
+        }
+      ],
+      "title" : "Relax",
+      "duration" : 15,
+      "color" : "A2835E"
+    },
+    {
+      "duration" : 15,
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : "Let your eyes close if you'd like and feel the breath coming in and out naturally."
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ],
+      "title" : "Close Your Eyes",
+      "color" : "FFCC01"
+    },
+    {
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : "Bring a gentle smile to your face and think of a loved one."
+            }
+          }
+        }
+      ],
+      "title" : "Gentle Smile",
+      "color" : "F50069",
+      "duration" : 23
+    },
+    {
+      "duration" : 45,
+      "title" : "Appreciate Qualities",
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : "Think of what you appreciate in this person, their good qualities."
+            }
+          }
+        }
+      ],
+      "color" : "32C659"
+    },
+    {
+      "title" : "Reflect on Appreciation",
+      "color" : "C300C4",
+      "duration" : 40,
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : "How does it feel to think of their qualities?"
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ]
+    },
+    {
+      "duration" : 30,
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : "Now let go of these thoughts."
+            }
+          }
+        }
+      ],
+      "color" : "76E9FE",
+      "title" : "Let Go"
+    },
+    {
+      "color" : "0300AA",
+      "title" : "Feel the Environment",
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : "Feel the ground beneath you, the space around you."
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ],
+      "duration" : 60
+    },
+    {
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : "Now consider your life. What is beautiful about it?"
+            }
+          }
+        }
+      ],
+      "duration" : 120,
+      "color" : "C90000",
+      "title" : "Appreciate Life"
+    },
+    {
+      "duration" : 60,
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : "Reflect on gratitude as a protection for the mind."
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ],
+      "color" : "32C659",
+      "title" : "Gratitude Reflection"
+    },
+    {
+      "title" : "Health Appreciation",
+      "color" : "FFCC01",
+      "duration" : 60,
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : "Take a moment to appreciate your health."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "color" : "76E9FE",
+      "title" : "Open Your Eyes",
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : "Great. You can gently open your eyes now if they're closed. Notice how you feel"
+            }
+          }
+        }
+      ],
+      "duration" : 6
+    }
+  ],
+  "version" : 1,
+  "title" : "🧘‍♂️Guided Meditation on Gratitude"
+}

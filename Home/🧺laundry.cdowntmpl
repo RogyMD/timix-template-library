@@ -1,0 +1,17 @@
+{
+  "version" : 1,
+  "title" : "🧺 laundry ",
+  "timers" : [
+    {
+      "color" : "00C7BE",
+      "duration" : 8100,
+      "endTriggers" : [
+        {
+          "id" : "notification",
+          "value" : ""
+        }
+      ],
+      "title" : "ready to dry"
+    }
+  ]
+}
