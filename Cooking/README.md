@@ -4,20 +4,24 @@ Timers crafted to help you in the kitchen — from baking to roasting to everyda
 
 ## Available Templates
 
-- **🐟 Baking salmon** — Juicy baked salmon timer. [🐟baking salmon.cdowntmpl](🐟baking%20salmon.cdowntmpl)
-- **🥦 Boil broccoli** — Quick timer for perfectly cooked broccoli. [🥦boil broccoli.cdowntmpl](🥦boil%20broccoli.cdowntmpl)
-- **🍚 Boil rice** — Timer for fluffy boiled rice. [🍚boil rice.cdowntmpl](🍚boil%20rice.cdowntmpl)
-- **🍗 Chicken thighs in the oven** — Perfectly baked chicken thighs. [🍗chicken thighs in the oven.cdowntmpl](🍗chicken%20thighs%20in%20the%20oven.cdowntmpl)
-- **🥩 Fry Steak** — Searing timer for a juicy steak. [🥩Fry Steak.cdowntmpl](🥩Fry%20Steak.cdowntmpl)
-- **🍄‍🟫 Mushroom in the oven** — Roasting timer for delicious baked mushrooms. [🍄‍🟫Mushroom in the oven.cdowntmpl](🍄‍🟫Mushroom%20in%20the%20oven.cdowntmpl)
-- **🍝 Pesto pasta** — Timer for al dente pesto pasta. [🍝pesto pasta.cdowntmpl](🍝pesto%20pasta.cdowntmpl)
+- [🐟Baking salmon](🐟baking%20salmon.cdowntmpl) — Juicy baked salmon timer.
+- [🥦Boil broccoli](🥦boil%20broccoli.cdowntmpl) — Quick timer for perfectly cooked broccoli.
+- [🍚Boil rice](🍚boil%20rice.cdowntmpl) — Timer for fluffy boiled rice. 
+- [🍗Chicken thighs in the oven](🍗chicken%20thighs%20in%20the%20oven.cdowntmpl) — Perfectly baked chicken thighs.
+- [🥩Fry Steak](🥩Fry%20Steak.cdowntmpl) — Searing timer for a juicy steak.
+- [🍄‍🟫Mushroom in the oven](🍄‍🟫Mushroom%20in%20the%20oven.cdowntmpl)— Roasting timer for delicious baked mushrooms.
+- [🍝Pesto pasta](🍝pesto%20pasta.cdowntmpl) — Timer for al dente pesto pasta.
 
 
 ---
 
 ### How to Add a Template
 
-1. Add your `.cdowntmpl` file to this folder. Use a clear title with an emoji (e.g., `🍝Spaghetti Timer.cdowntmpl`).
-2. Update this README by listing your template with a short description and a direct link.
-
-Thank you for helping everyone cook with confidence!
+1. Add your `.cdowntmpl` file to this folder. Use a clear title with an emoji (e.g., `🍝Spaghetti.cdowntmpl`).
+2. Update the "Available Templates" list above:
+    - Follow the format:
+      ```
+      - [🍝Spaghetti](🍝Spaghetti.cdowntmpl) — Timer for delicious spaghetti.
+      ```
+    - Keep the list sorted alphabetically based on the emoji and name.
+    - Keep descriptions short and clear.
