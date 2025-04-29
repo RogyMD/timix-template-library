@@ -1,0 +1,25 @@
+{
+  "timers" : [
+    {
+      "endTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : "chicken is ready"
+            }
+          },
+          "id" : "audioTrigger"
+        },
+        {
+          "id" : "pauseCountdown",
+          "value" : true
+        }
+      ],
+      "duration" : 1080,
+      "color" : "FE9500",
+      "title" : "preheated fan oven 185 degrees "
+    }
+  ],
+  "title" : "🍗chicken thighs in the oven",
+  "version" : 1
+}

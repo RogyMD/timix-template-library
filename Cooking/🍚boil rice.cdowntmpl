@@ -1,0 +1,48 @@
+{
+  "title" : "🍚boil rice",
+  "version" : 1,
+  "timers" : [
+    {
+      "title" : "boiling",
+      "duration" : 600,
+      "endTriggers" : [
+        {
+          "value" : "put aside",
+          "id" : "notification"
+        },
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "sound" : {
+              "_0" : "beep"
+            }
+          }
+        },
+        {
+          "value" : true,
+          "id" : "pauseCountdown"
+        }
+      ],
+      "color" : "50B7BD"
+    },
+    {
+      "duration" : 300,
+      "title" : "serve ",
+      "color" : "FE392E",
+      "endTriggers" : [
+        {
+          "value" : {
+            "sound" : {
+              "_0" : "call_bell"
+            }
+          },
+          "id" : "audioTrigger"
+        },
+        {
+          "id" : "notification",
+          "value" : ""
+        }
+      ]
+    }
+  ]
+}

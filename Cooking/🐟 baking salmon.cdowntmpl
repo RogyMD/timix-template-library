@@ -1,0 +1,36 @@
+{
+  "title" : "🐟 baking salmon",
+  "timers" : [
+    {
+      "endTriggers" : [
+        {
+          "id" : "pauseCountdown",
+          "value" : false
+        }
+      ],
+      "color" : "00C7BE",
+      "duration" : 30,
+      "title" : "Fan 190"
+    },
+    {
+      "color" : "CA0059",
+      "duration" : 960,
+      "title" : "ready",
+      "endTriggers" : [
+        {
+          "value" : "",
+          "id" : "notification"
+        },
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "sound" : {
+              "_0" : "beep"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "version" : 1
+}

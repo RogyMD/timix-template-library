@@ -1,0 +1,44 @@
+{
+  "version" : 1,
+  "title" : "🍝pesto pasta",
+  "timers" : [
+    {
+      "duration" : 540,
+      "color" : "FE3A2F",
+      "endTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : "drain water"
+            }
+          }
+        },
+        {
+          "id" : "pauseCountdown",
+          "value" : true
+        }
+      ],
+      "title" : "boiling pasta "
+    },
+    {
+      "title" : "Heating sauce",
+      "duration" : 90,
+      "endTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : "bon appetite "
+            }
+          },
+          "id" : "audioTrigger"
+        },
+        {
+          "value" : true,
+          "id" : "pauseCountdown"
+        }
+      ],
+      "color" : "00C7BE"
+    }
+  ]
+}

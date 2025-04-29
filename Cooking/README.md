@@ -4,7 +4,14 @@ Timers crafted to help you in the kitchen — from baking to roasting to everyda
 
 ## Available Templates
 
-*(No templates yet)* — Contribute a template to make cooking even easier and more fun!
+- **🐟 Baking salmon** — Juicy baked salmon timer. [🐟baking salmon.cdowntmpl](🐟baking%20salmon.cdowntmpl)
+- **🥦 Boil broccoli** — Quick timer for perfectly cooked broccoli. [🥦boil broccoli.cdowntmpl](🥦boil%20broccoli.cdowntmpl)
+- **🍚 Boil rice** — Timer for fluffy boiled rice. [🍚boil rice.cdowntmpl](🍚boil%20rice.cdowntmpl)
+- **🍗 Chicken thighs in the oven** — Perfectly baked chicken thighs. [🍗chicken thighs in the oven.cdowntmpl](🍗chicken%20thighs%20in%20the%20oven.cdowntmpl)
+- **🥩 Fry Steak** — Searing timer for a juicy steak. [🥩Fry Steak.cdowntmpl](🥩Fry%20Steak.cdowntmpl)
+- **🍄‍🟫 Mushroom in the oven** — Roasting timer for delicious baked mushrooms. [🍄‍🟫Mushroom in the oven.cdowntmpl](🍄‍🟫Mushroom%20in%20the%20oven.cdowntmpl)
+- **🍝 Pesto pasta** — Timer for al dente pesto pasta. [🍝pesto pasta.cdowntmpl](🍝pesto%20pasta.cdowntmpl)
+
 
 ---
 
@@ -12,11 +19,5 @@ Timers crafted to help you in the kitchen — from baking to roasting to everyda
 
 1. Add your `.cdowntmpl` file to this folder. Use a clear title with an emoji (e.g., `🍝Spaghetti Timer.cdowntmpl`).
 2. Update this README by listing your template with a short description and a direct link.
-
-**Example:**
-
-```markdown
-- **🍝 Spaghetti Timer** — 10-minute timer for perfect spaghetti. [🍝Spaghetti Timer.cdowntmpl](🍝Spaghetti Timer.cdowntmpl)
-```
 
 Thank you for helping everyone cook with confidence!

@@ -1,0 +1,136 @@
+{
+  "title" : "🥩Fry Steak ",
+  "version" : 1,
+  "timers" : [
+    {
+      "endTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "sound" : {
+              "_0" : "beep"
+            }
+          }
+        },
+        {
+          "value" : false,
+          "id" : "pauseCountdown"
+        }
+      ],
+      "title" : "Pan on high heat",
+      "color" : "FF2600",
+      "duration" : 120
+    },
+    {
+      "duration" : 60,
+      "color" : "AF52DE",
+      "endTriggers" : [
+        {
+          "value" : {
+            "sound" : {
+              "_0" : "beep"
+            }
+          },
+          "id" : "audioTrigger"
+        },
+        {
+          "id" : "flashScreen",
+          "value" : 3
+        },
+        {
+          "id" : "pauseCountdown",
+          "value" : true
+        }
+      ],
+      "title" : "Lay the steak"
+    },
+    {
+      "title" : "Turn on the other side",
+      "duration" : 60,
+      "color" : "0030E3",
+      "endTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "sound" : {
+              "_0" : "beep"
+            }
+          }
+        },
+        {
+          "value" : 3,
+          "id" : "flashScreen"
+        },
+        {
+          "id" : "pauseCountdown",
+          "value" : true
+        }
+      ]
+    },
+    {
+      "title" : "Lower the heat",
+      "duration" : 150,
+      "color" : "32C659",
+      "endTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "sound" : {
+              "_0" : "beep"
+            }
+          }
+        },
+        {
+          "value" : 3,
+          "id" : "flashScreen"
+        },
+        {
+          "id" : "pauseCountdown",
+          "value" : true
+        }
+      ]
+    },
+    {
+      "endTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "sound" : {
+              "_0" : "beep"
+            }
+          }
+        },
+        {
+          "id" : "flashScreen",
+          "value" : 3
+        },
+        {
+          "id" : "pauseCountdown",
+          "value" : true
+        }
+      ],
+      "duration" : 150,
+      "title" : "turn on the other side",
+      "color" : "E4B400"
+    },
+    {
+      "duration" : 600,
+      "color" : "C40000",
+      "endTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "sound" : {
+              "_0" : "bell"
+            }
+          }
+        },
+        {
+          "id" : "notification",
+          "value" : "Bon Appetite"
+        }
+      ],
+      "title" : "Rest"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "title" : "🥦boil broccoli",
+  "timers" : [
+    {
+      "endTriggers" : [
+        {
+          "value" : {
+            "sound" : {
+              "_0" : "beep"
+            }
+          },
+          "id" : "audioTrigger"
+        },
+        {
+          "value" : true,
+          "id" : "pauseCountdown"
+        }
+      ],
+      "duration" : 180,
+      "color" : "FE3A2F",
+      "title" : "boiling stalks"
+    },
+    {
+      "color" : "32C659",
+      "title" : "boiling florets",
+      "duration" : 180,
+      "endTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "sound" : {
+              "_0" : "call_bell"
+            }
+          }
+        },
+        {
+          "value" : true,
+          "id" : "pauseCountdown"
+        }
+      ]
+    }
+  ],
+  "version" : 1
+}
