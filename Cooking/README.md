@@ -4,7 +4,7 @@ Timers crafted to help you in the kitchen — from baking to roasting to everyda
 
 ## Available Templates
 
-- [🐟Baking salmon](🐟baking%20salmon.cdowntmpl) — Juicy baked salmon timer.
+- [🐟Salmon in the Oven](🐟salmon%20in%20the%20oven.cdowntmpl) — Juicy baked salmon timer.
 - [🥦Boil broccoli](🥦boil%20broccoli.cdowntmpl) — Quick timer for perfectly cooked broccoli.
 - [🍚Boil rice](🍚boil%20rice.cdowntmpl) — Timer for fluffy boiled rice. 
 - [🍗Chicken thighs in the oven](🍗chicken%20thighs%20in%20the%20oven.cdowntmpl) — Perfectly baked chicken thighs.

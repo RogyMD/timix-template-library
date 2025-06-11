@@ -1,16 +1,14 @@
 {
-  "version" : 1,
-  "title" : "🍝pesto pasta",
+  "id" : "BD228A75-8CCE-4FCF-95A6-DC5352FCE2FB",
   "timers" : [
     {
-      "duration" : 540,
-      "color" : "FE3A2F",
+      "title" : "boiling water ",
       "endTriggers" : [
         {
           "id" : "audioTrigger",
           "value" : {
-            "speak" : {
-              "_0" : "drain water"
+            "sound" : {
+              "_0" : "kettle_whistle"
             }
           }
         },
@@ -19,26 +17,51 @@
           "value" : true
         }
       ],
-      "title" : "boiling pasta "
+      "id" : "1E5C882B-4B34-4B4C-BB53-B9DDF49CAA42",
+      "duration" : 480,
+      "color" : "3A85FC"
+    },
+    {
+      "title" : "boiling pasta ",
+      "endTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "sound" : {
+              "_0" : "beep"
+            }
+          }
+        },
+        {
+          "id" : "pauseCountdown",
+          "value" : true
+        }
+      ],
+      "id" : "5AA70EF8-43C7-436E-B070-F63C3BAA2411",
+      "duration" : 540,
+      "color" : "FE3A2F"
     },
     {
       "title" : "Heating sauce",
-      "duration" : 90,
       "endTriggers" : [
         {
+          "id" : "audioTrigger",
           "value" : {
-            "speak" : {
-              "_0" : "bon appetite "
+            "sound" : {
+              "_0" : "call_bell"
             }
-          },
-          "id" : "audioTrigger"
+          }
         },
         {
-          "value" : true,
-          "id" : "pauseCountdown"
+          "id" : "pauseCountdown",
+          "value" : true
         }
       ],
+      "id" : "3918F6A0-AD00-4E77-8EE9-07885161533D",
+      "duration" : 90,
       "color" : "00C7BE"
     }
-  ]
+  ],
+  "title" : "🍝pesto pasta",
+  "version" : 2
 }

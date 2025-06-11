@@ -3,12 +3,32 @@
     {
       "endTriggers" : [
         {
+          "value" : false,
+          "id" : "pauseCountdown"
+        },
+        {
+          "value" : {
+            "sound" : {
+              "_0" : "kettle_whistle"
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ],
+      "duration" : 600,
+      "title" : "preheated fan oven 185 degrees ",
+      "id" : "76468885-FCD4-48AA-AF93-643354D439CA",
+      "color" : "FF2600"
+    },
+    {
+      "endTriggers" : [
+        {
+          "id" : "audioTrigger",
           "value" : {
             "speak" : {
               "_0" : "chicken is ready"
             }
-          },
-          "id" : "audioTrigger"
+          }
         },
         {
           "id" : "pauseCountdown",
@@ -16,10 +36,12 @@
         }
       ],
       "duration" : 1080,
-      "color" : "FE9500",
-      "title" : "preheated fan oven 185 degrees "
+      "title" : "cooking",
+      "id" : "BBF50A10-D847-492E-BCC0-901B6767C941",
+      "color" : "FE9500"
     }
   ],
-  "title" : "🍗chicken thighs in the oven",
-  "version" : 1
+  "id" : "D279847D-F98D-4251-A7A0-86D42C0A87AF",
+  "version" : 2,
+  "title" : "🍗chicken thighs in the oven"
 }

@@ -1,8 +1,8 @@
 {
-  "version" : 1,
-  "title" : "🧘‍♂️Yoga for Back",
+  "version" : 2,
   "timers" : [
     {
+      "id" : "BFA61F26-3657-4111-BF7D-2A5C2E4764B4",
       "startTriggers" : [
         {
           "id" : "audioTrigger",
@@ -17,15 +17,29 @@
           "value" : 3
         },
         {
+          "id" : "homeKit",
+          "value" : {
+            "accessories" : [
+              "CFC6E012-AA31-5624-9EF3-DADB34675396",
+              "8542C280-0887-596F-A8F8-0581781F6BD8",
+              "D406055E-3F0D-53AD-A517-4BC5AAF4121A",
+              "29250758-3483-5AA1-B602-50A136357E4A",
+              "D97BE411-279D-5C25-8AF5-85697D8F68B3"
+            ],
+            "isOn" : false
+          }
+        },
+        {
           "id" : "workout",
           "value" : "mindAndBody"
         }
       ],
-      "duration" : 180,
+      "duration" : 181,
       "title" : "Relaxing body scan",
       "color" : "2FB0C7"
     },
     {
+      "id" : "39791DA9-8738-4FCF-9911-279C2DCFE6FE",
       "startTriggers" : [
         {
           "id" : "audioTrigger",
@@ -41,6 +55,7 @@
       "color" : "32C659"
     },
     {
+      "id" : "D26489D2-CF22-4337-978F-5BCEB5AA5932",
       "startTriggers" : [
         {
           "id" : "audioTrigger",
@@ -60,14 +75,15 @@
       "color" : "FFCC01"
     },
     {
+      "id" : "57ECF8A0-4663-418F-839F-591A7C05A55F",
       "startTriggers" : [
         {
+          "id" : "audioTrigger",
           "value" : {
             "speak" : {
               "_0" : ""
             }
-          },
-          "id" : "audioTrigger"
+          }
         }
       ],
       "duration" : 30,
@@ -75,23 +91,39 @@
       "color" : "F50069"
     },
     {
-      "color" : "32C659",
+      "id" : "553B2408-150F-4949-AAAE-0132B02A1763",
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        }
+      ],
+      "duration" : 60,
       "title" : "Stretch arms and legs then Hug your knees to the chest",
+      "color" : "32C659"
+    },
+    {
+      "id" : "DEA327B2-677E-46EA-B116-E3616644A691",
       "startTriggers" : [
         {
+          "id" : "audioTrigger",
           "value" : {
             "speak" : {
               "_0" : ""
             }
-          },
-          "id" : "audioTrigger"
+          }
         }
       ],
-      "duration" : 60
-    },
-    {
+      "duration" : 90,
       "title" : "Come to Easy Pose and start cat and cow stretch",
-      "color" : "C300C4",
+      "color" : "C300C4"
+    },
+    {
+      "id" : "62205E60-AC81-4908-9D96-6D8612161C3C",
       "startTriggers" : [
         {
           "id" : "audioTrigger",
@@ -102,92 +134,89 @@
           }
         }
       ],
-      "duration" : 90
-    },
-    {
-      "title" : "Side stretch with seated twist ",
-      "color" : "32C659",
-      "startTriggers" : [
-        {
-          "id" : "audioTrigger",
-          "value" : {
-            "speak" : {
-              "_0" : ""
-            }
-          }
-        }
-      ],
-      "duration" : 360
-    },
-    {
-      "color" : "0300AA",
-      "startTriggers" : [
-        {
-          "id" : "audioTrigger",
-          "value" : {
-            "speak" : {
-              "_0" : ""
-            }
-          }
-        }
-      ],
-      "title" : "sun salutation with low lunge",
-      "duration" : 360
-    },
-    {
-      "color" : "C90000",
-      "startTriggers" : [
-        {
-          "value" : {
-            "speak" : {
-              "_0" : ""
-            }
-          },
-          "id" : "audioTrigger"
-        }
-      ],
-      "title" : "high lunge to warrior 2",
-      "duration" : 360
-    },
-    {
-      "color" : "32C659",
-      "startTriggers" : [
-        {
-          "value" : {
-            "speak" : {
-              "_0" : ""
-            }
-          },
-          "id" : "audioTrigger"
-        }
-      ],
-      "title" : "kneeling pose to eagle arms and easy camel",
-      "duration" : 360
-    },
-    {
-      "startTriggers" : [
-        {
-          "value" : {
-            "speak" : {
-              "_0" : ""
-            }
-          },
-          "id" : "audioTrigger"
-        }
-      ],
-      "color" : "76E9FE",
       "duration" : 360,
-      "title" : "corpse pose and surrender",
+      "title" : "Side stretch with seated twist ",
+      "color" : "32C659"
+    },
+    {
+      "id" : "8701C320-CE29-40EB-A1D3-CB4FD668F7C2",
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        }
+      ],
+      "duration" : 360,
+      "title" : "sun salutation with low lunge",
+      "color" : "0300AA"
+    },
+    {
+      "id" : "F68FC620-A9BF-410C-8A09-A28C5BFB765C",
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        }
+      ],
+      "duration" : 360,
+      "title" : "high lunge to warrior 2",
+      "color" : "C90000"
+    },
+    {
+      "id" : "E6DFCB99-93FB-4085-B4E2-B19F9E493020",
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        }
+      ],
+      "duration" : 360,
+      "title" : "kneeling pose to eagle arms and easy camel",
+      "color" : "32C659"
+    },
+    {
       "endTriggers" : [
         {
+          "id" : "audioTrigger",
           "value" : {
             "speak" : {
               "_0" : "thank you"
             }
-          },
-          "id" : "audioTrigger"
+          }
         }
-      ]
+      ],
+      "id" : "AA7DF141-3768-4E04-B3F5-03E81FC61DF9",
+      "startTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "speak" : {
+              "_0" : ""
+            }
+          }
+        },
+        {
+          "id" : "workout",
+          "value" : "mindAndBody"
+        }
+      ],
+      "duration" : 180,
+      "title" : "corpse pose and surrender",
+      "color" : "76E9FE"
     }
-  ]
+  ],
+  "id" : "F907FCD7-EFAB-404C-ACBF-287282AF687F",
+  "title" : "🧘‍♂️Yoga for Back"
 }

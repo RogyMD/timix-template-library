@@ -1,48 +1,51 @@
 {
+  "version" : 2,
+  "id" : "632A6835-FF9E-4A02-85F4-5DC0E8549BA6",
   "title" : "🦥Power Nap",
   "timers" : [
     {
       "title" : "10 minutes passed",
-      "color" : "007AFF",
       "duration" : 600,
+      "color" : "007AFF",
       "endTriggers" : [
         {
+          "id" : "vibrate",
+          "value" : 2
+        },
+        {
+          "id" : "audioTrigger",
           "value" : {
             "speak" : {
               "_0" : ""
             }
-          },
-          "id" : "audioTrigger"
-        },
-        {
-          "value" : 2,
-          "id" : "vibrate"
+          }
         }
-      ]
+      ],
+      "id" : "B23B6B88-B4E1-44E4-AC67-F72BC00DA296"
     },
     {
       "title" : "wake up!",
-      "color" : "FF392E",
       "duration" : 300,
+      "color" : "FF392E",
       "endTriggers" : [
         {
+          "id" : "audioTrigger",
           "value" : {
             "sound" : {
               "_0" : "clock"
             }
-          },
-          "id" : "audioTrigger"
+          }
         },
         {
-          "value" : true,
-          "id" : "pauseCountdown"
+          "id" : "pauseCountdown",
+          "value" : true
         },
         {
-          "value" : 1,
-          "id" : "vibrate"
+          "id" : "vibrate",
+          "value" : 1
         }
-      ]
+      ],
+      "id" : "3C5826F9-2837-4076-B22A-0DE95E05B0D5"
     }
-  ],
-  "version" : 1
+  ]
 }

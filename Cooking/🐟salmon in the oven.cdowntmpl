@@ -1,0 +1,47 @@
+{
+  "timers" : [
+    {
+      "title" : "Preheat Fan 190",
+      "id" : "7EE24650-4E8B-414A-9DCB-DA6B88896555",
+      "duration" : 600.000006,
+      "endTriggers" : [
+        {
+          "id" : "pauseCountdown",
+          "value" : false
+        },
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "sound" : {
+              "_0" : "kettle_whistle"
+            }
+          }
+        }
+      ],
+      "color" : "00C7BE"
+    },
+    {
+      "title" : "ready",
+      "id" : "7DAB5FD2-7FCF-432D-B482-0CC84C9D2C2E",
+      "duration" : 960,
+      "endTriggers" : [
+        {
+          "value" : "",
+          "id" : "notification"
+        },
+        {
+          "value" : {
+            "sound" : {
+              "_0" : "beep"
+            }
+          },
+          "id" : "audioTrigger"
+        }
+      ],
+      "color" : "CA0059"
+    }
+  ],
+  "title" : "🐟 salmon in the oven",
+  "id" : "06463F82-6263-43CE-841C-B078005BAE13",
+  "version" : 2
+}

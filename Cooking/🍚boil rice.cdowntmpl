@@ -1,14 +1,13 @@
 {
+  "id" : "4D637334-914D-4F19-853E-E3F4B1547810",
   "title" : "🍚boil rice",
-  "version" : 1,
   "timers" : [
     {
-      "title" : "boiling",
-      "duration" : 600,
+      "color" : "50B7BD",
       "endTriggers" : [
         {
-          "value" : "put aside",
-          "id" : "notification"
+          "id" : "notification",
+          "value" : "put aside"
         },
         {
           "id" : "audioTrigger",
@@ -19,30 +18,34 @@
           }
         },
         {
-          "value" : true,
-          "id" : "pauseCountdown"
+          "id" : "pauseCountdown",
+          "value" : true
         }
       ],
-      "color" : "50B7BD"
+      "duration" : 600,
+      "id" : "279D1748-463C-427D-A467-2C1A0D7132ED",
+      "title" : "boiling"
     },
     {
-      "duration" : 300,
-      "title" : "serve ",
       "color" : "FE392E",
       "endTriggers" : [
         {
+          "id" : "audioTrigger",
           "value" : {
             "sound" : {
               "_0" : "call_bell"
             }
-          },
-          "id" : "audioTrigger"
+          }
         },
         {
           "id" : "notification",
           "value" : ""
         }
-      ]
+      ],
+      "duration" : 300,
+      "id" : "A16CFDEB-0AC9-4119-B3B7-5203BFE52AB6",
+      "title" : "serve "
     }
-  ]
+  ],
+  "version" : 2
 }

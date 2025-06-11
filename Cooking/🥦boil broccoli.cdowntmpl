@@ -1,12 +1,32 @@
 {
-  "title" : "🥦boil broccoli",
   "timers" : [
     {
+      "id" : "8902A27F-D368-4DC8-98ED-AB8020AD9774",
+      "endTriggers" : [
+        {
+          "id" : "audioTrigger",
+          "value" : {
+            "sound" : {
+              "_0" : "beep"
+            }
+          }
+        },
+        {
+          "id" : "pauseCountdown",
+          "value" : true
+        }
+      ],
+      "title" : "boiling stalks",
+      "duration" : 180,
+      "color" : "FE3A2F"
+    },
+    {
+      "id" : "A2FDDDD5-0026-4C98-B9D1-CC9BF933D931",
       "endTriggers" : [
         {
           "value" : {
             "sound" : {
-              "_0" : "beep"
+              "_0" : "call_bell"
             }
           },
           "id" : "audioTrigger"
@@ -16,29 +36,12 @@
           "id" : "pauseCountdown"
         }
       ],
-      "duration" : 180,
-      "color" : "FE3A2F",
-      "title" : "boiling stalks"
-    },
-    {
-      "color" : "32C659",
       "title" : "boiling florets",
       "duration" : 180,
-      "endTriggers" : [
-        {
-          "id" : "audioTrigger",
-          "value" : {
-            "sound" : {
-              "_0" : "call_bell"
-            }
-          }
-        },
-        {
-          "value" : true,
-          "id" : "pauseCountdown"
-        }
-      ]
+      "color" : "32C659"
     }
   ],
-  "version" : 1
+  "id" : "DCB42F9A-FB50-4802-AC64-510A9765F51F",
+  "version" : 2,
+  "title" : "🥦boil broccoli"
 }

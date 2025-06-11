@@ -1,8 +1,7 @@
 {
-  "title" : "🍄‍🟫Mushroom in the oven",
-  "version" : 1,
   "timers" : [
     {
+      "title" : "preheat oven 190 C",
       "endTriggers" : [
         {
           "id" : "pauseCountdown",
@@ -12,33 +11,37 @@
           "id" : "audioTrigger",
           "value" : {
             "sound" : {
-              "_0" : "call_bell"
+              "_0" : "kettle_whistle"
             }
           }
         }
       ],
-      "title" : "preheat oven 190 C",
-      "duration" : 20,
+      "duration" : 600.0000061,
+      "id" : "79C2A15C-088D-4D83-AE6D-4F2593043B66",
       "color" : "A5481F"
     },
     {
-      "duration" : 900,
+      "title" : "ready",
       "endTriggers" : [
         {
           "id" : "pauseCountdown",
           "value" : true
         },
         {
+          "id" : "audioTrigger",
           "value" : {
             "sound" : {
               "_0" : "bell"
             }
-          },
-          "id" : "audioTrigger"
+          }
         }
       ],
-      "color" : "5654D6",
-      "title" : "ready"
+      "duration" : 900.0000001,
+      "id" : "F528F9CF-61DE-4CD0-8CA5-364CDAE398E8",
+      "color" : "5654D6"
     }
-  ]
+  ],
+  "version" : 2,
+  "title" : "🍄‍🟫Mushroom in the oven",
+  "id" : "ECD4B0A3-D53D-43C6-9753-9C0ECEF9D064"
 }

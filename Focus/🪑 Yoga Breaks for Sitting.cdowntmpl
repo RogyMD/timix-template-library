@@ -1,25 +1,22 @@
 {
-  "version" : 1,
-  "title" : "🪑 Yoga Breaks for Sitting",
   "timers" : [
     {
-      "duration" : 900,
       "color" : "AF52DE",
       "startTriggers" : [
         {
-          "id" : "audioTrigger",
           "value" : {
             "speak" : {
               "_0" : "Have a Gentle stretch"
             }
-          }
+          },
+          "id" : "audioTrigger"
         }
       ],
-      "title" : "Gentle Stretch"
+      "title" : "Gentle Stretch",
+      "duration" : 900,
+      "id" : "2EEE3A50-0F56-4B6B-8572-BC5E725FD93E"
     },
     {
-      "duration" : 900,
-      "title" : "Seated Cat-Cow",
       "color" : "30ADE6",
       "startTriggers" : [
         {
@@ -30,24 +27,29 @@
             }
           }
         }
-      ]
+      ],
+      "title" : "Seated Cat-Cow",
+      "duration" : 900,
+      "id" : "E62FA117-58DB-40AE-8377-9112B72BB4AB"
     },
     {
-      "duration" : 900,
       "color" : "A2835E",
-      "title" : "Seated Spinal Twist",
       "startTriggers" : [
         {
+          "id" : "audioTrigger",
           "value" : {
             "speak" : {
               "_0" : "Seated Twist. Turn gently."
             }
-          },
-          "id" : "audioTrigger"
+          }
         }
-      ]
+      ],
+      "title" : "Seated Spinal Twist",
+      "duration" : 900,
+      "id" : "1B9CF8C2-54A1-462E-B248-684F57ECC98E"
     },
     {
+      "color" : "FF5733",
       "startTriggers" : [
         {
           "value" : {
@@ -58,14 +60,12 @@
           "id" : "audioTrigger"
         }
       ],
+      "title" : "Standing Forward Fold",
       "duration" : 900,
-      "color" : "FF5733",
-      "title" : "Standing Forward Fold"
+      "id" : "838DB2E8-17FA-414D-BCB2-A21B537412BB"
     },
     {
-      "duration" : 900,
       "color" : "FFC300",
-      "title" : "Seated Side Stretch",
       "startTriggers" : [
         {
           "value" : {
@@ -75,11 +75,13 @@
           },
           "id" : "audioTrigger"
         }
-      ]
+      ],
+      "title" : "Seated Side Stretch",
+      "duration" : 900,
+      "id" : "B2D22DDD-E092-437E-8976-622F40BCD848"
     },
     {
-      "title" : "Seated Shoulder Opener",
-      "duration" : 900,
+      "color" : "DAF7A6",
       "startTriggers" : [
         {
           "value" : {
@@ -90,36 +92,42 @@
           "id" : "audioTrigger"
         }
       ],
-      "color" : "DAF7A6"
+      "title" : "Seated Shoulder Opener",
+      "duration" : 900,
+      "id" : "311E69B8-0497-4C94-A76D-04EA1924DD26"
     },
     {
-      "startTriggers" : [
-        {
-          "id" : "audioTrigger",
-          "value" : {
-            "speak" : {
-              "_0" : "Chest opener. Breathe deeply."
-            }
-          }
-        }
-      ],
-      "duration" : 900,
+      "color" : "900C3F",
       "endTriggers" : [
         {
-          "id" : "pauseCountdown",
-          "value" : false
+          "value" : false,
+          "id" : "pauseCountdown"
         },
         {
-          "id" : "audioTrigger",
           "value" : {
             "speak" : {
               "_0" : "Take a deep breath and go for a walk"
             }
-          }
+          },
+          "id" : "audioTrigger"
+        }
+      ],
+      "startTriggers" : [
+        {
+          "value" : {
+            "speak" : {
+              "_0" : "Chest opener. Breathe deeply."
+            }
+          },
+          "id" : "audioTrigger"
         }
       ],
       "title" : "Standing Chest Opener",
-      "color" : "900C3F"
+      "duration" : 900,
+      "id" : "CEEF28ED-A60E-4D97-B962-E7E2D586B5BB"
     }
-  ]
+  ],
+  "version" : 2,
+  "title" : "🪑 Yoga Breaks for Sitting",
+  "id" : "546F4D4C-1C9B-4404-BFCC-7B016B0C6FD3"
 }

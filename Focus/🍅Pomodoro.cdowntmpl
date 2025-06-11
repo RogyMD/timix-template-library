@@ -1,87 +1,111 @@
 {
+  "id" : "00000000-0000-1000-0000-000011000001",
   "title" : "🍅Pomodoro",
-  "version" : 1,
   "timers" : [
     {
-      "color" : "FE3A2F",
-      "duration" : 1800,
+      "id" : "98B9FB76-C2CC-463D-A750-4B819F4B1A39",
+      "title" : "Set 1",
       "endTriggers" : [
+        {
+          "value" : "Have a break",
+          "id" : "notification"
+        },
         {
           "value" : {
             "speak" : {
-              "_0" : "Have a Break"
+              "_0" : "Have a break"
             }
           },
           "id" : "audioTrigger"
         },
-        {
-          "value" : 3,
-          "id" : "flashScreen"
-        }
-      ],
-      "title" : "Set 1"
-    },
-    {
-      "color" : "00C7BE",
-      "title" : "Break",
-      "duration" : 600,
-      "endTriggers" : [
         {
           "value" : false,
           "id" : "pauseCountdown"
-        },
-        {
-          "value" : {
-            "sound" : {
-              "_0" : "buzzer"
-            }
-          },
-          "id" : "audioTrigger"
-        }
-      ]
-    },
-    {
-      "color" : "FE3A2F",
-      "endTriggers" : [
-        {
-          "value" : {
-            "sound" : {
-              "_0" : "level_up"
-            }
-          },
-          "id" : "audioTrigger"
-        },
-        {
-          "value" : true,
-          "id" : "pauseCountdown"
         }
       ],
-      "title" : "Set 2",
-      "duration" : 1800
+      "duration" : 1500,
+      "color" : "FF3A2F"
     },
     {
+      "id" : "F00BA6D2-DD5A-45A2-8078-6DA1807563A1",
       "title" : "Break",
       "endTriggers" : [
         {
-          "id" : "audioTrigger",
-          "value" : {
-            "sound" : {
-              "_0" : "buzzer"
-            }
-          }
+          "value" : "Back to work",
+          "id" : "notification"
         },
         {
-          "id" : "pauseCountdown",
-          "value" : false
+          "value" : {
+            "sound" : {
+              "_0" : "bell"
+            }
+          },
+          "id" : "audioTrigger"
+        },
+        {
+          "value" : false,
+          "id" : "pauseCountdown"
         }
       ],
-      "duration" : 600,
+      "duration" : 300,
       "color" : "33C758"
     },
     {
-      "title" : "Set 3",
-      "duration" : 1800,
+      "id" : "3DCC8C4D-1ECC-4DC5-8C00-BE14E7F123A5",
+      "title" : "Set 2",
       "endTriggers" : [
+        {
+          "value" : "Have a break",
+          "id" : "notification"
+        },
+        {
+          "value" : {
+            "speak" : {
+              "_0" : "Have a break"
+            }
+          },
+          "id" : "audioTrigger"
+        },
+        {
+          "value" : false,
+          "id" : "pauseCountdown"
+        }
+      ],
+      "duration" : 1500,
+      "color" : "FF3A2F"
+    },
+    {
+      "id" : "C5F803A1-FE87-4742-AAB0-40B7C475BD62",
+      "title" : "Break",
+      "endTriggers" : [
+        {
+          "value" : "Back to work",
+          "id" : "notification"
+        },
+        {
+          "value" : {
+            "sound" : {
+              "_0" : "bell"
+            }
+          },
+          "id" : "audioTrigger"
+        },
+        {
+          "value" : false,
+          "id" : "pauseCountdown"
+        }
+      ],
+      "duration" : 300,
+      "color" : "00C7BE"
+    },
+    {
+      "id" : "B9610D32-6A53-4C1C-8083-D6670A15CFA0",
+      "title" : "Set 3",
+      "endTriggers" : [
+        {
+          "value" : "Breathe some fresh air",
+          "id" : "notification"
+        },
         {
           "value" : {
             "sound" : {
@@ -91,21 +115,25 @@
           "id" : "audioTrigger"
         },
         {
-          "id" : "pauseCountdown",
-          "value" : true
+          "value" : false,
+          "id" : "pauseCountdown"
         }
       ],
-      "color" : "FE3A2F"
+      "duration" : 1500,
+      "color" : "FF3A2F"
     },
     {
-      "title" : "Break",
-      "duration" : 1200,
-      "color" : "FEFB00",
+      "id" : "F50B8866-7CD9-4421-A56C-C37F6FC6BF9F",
+      "title" : "Long Break",
       "endTriggers" : [
+        {
+          "value" : "Focus",
+          "id" : "notification"
+        },
         {
           "value" : {
             "sound" : {
-              "_0" : "buzzer"
+              "_0" : "clock"
             }
           },
           "id" : "audioTrigger"
@@ -114,7 +142,10 @@
           "value" : false,
           "id" : "pauseCountdown"
         }
-      ]
+      ],
+      "duration" : 1200,
+      "color" : "FFCC00"
     }
-  ]
+  ],
+  "version" : 2
 }

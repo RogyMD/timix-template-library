@@ -1,31 +1,38 @@
 {
+  "version" : 2,
+  "title" : "🧘‍♂️Guided Meditation on Gratitude",
   "timers" : [
     {
-      "color" : "32C659",
+      "id" : "8FF2C4B1-9AD9-443E-B486-D8AE4CBD73EB",
       "title" : "Sit",
-      "duration" : 15
+      "duration" : 15,
+      "color" : "32C659"
     },
     {
+      "id" : "3C61AEA3-91F3-4C57-9336-F646E3A883D6",
+      "title" : "Relax",
+      "duration" : 15,
+      "color" : "A2835E",
       "startTriggers" : [
         {
+          "id" : "audioTrigger",
           "value" : {
             "speak" : {
               "_0" : "Relax as much as possible. Take a few deep breaths."
             }
-          },
-          "id" : "audioTrigger"
+          }
         },
         {
-          "value" : 3,
-          "id" : "vibrate"
+          "id" : "vibrate",
+          "value" : 3
         }
-      ],
-      "title" : "Relax",
-      "duration" : 15,
-      "color" : "A2835E"
+      ]
     },
     {
+      "id" : "3753315C-1C94-4AC0-A892-2D1669A9A13E",
+      "title" : "Close Your Eyes",
       "duration" : 15,
+      "color" : "FFCC01",
       "startTriggers" : [
         {
           "value" : {
@@ -35,44 +42,45 @@
           },
           "id" : "audioTrigger"
         }
-      ],
-      "title" : "Close Your Eyes",
-      "color" : "FFCC01"
+      ]
     },
     {
+      "id" : "44257DCB-602A-48C8-9C62-1351DC3263BD",
+      "title" : "Gentle Smile",
+      "duration" : 23,
+      "color" : "F50069",
       "startTriggers" : [
         {
-          "id" : "audioTrigger",
           "value" : {
             "speak" : {
               "_0" : "Bring a gentle smile to your face and think of a loved one."
             }
-          }
+          },
+          "id" : "audioTrigger"
         }
-      ],
-      "title" : "Gentle Smile",
-      "color" : "F50069",
-      "duration" : 23
+      ]
     },
     {
-      "duration" : 45,
+      "id" : "6B051513-9F87-449A-9798-43E2645A94A6",
       "title" : "Appreciate Qualities",
+      "duration" : 45,
+      "color" : "32C659",
       "startTriggers" : [
         {
-          "id" : "audioTrigger",
           "value" : {
             "speak" : {
               "_0" : "Think of what you appreciate in this person, their good qualities."
             }
-          }
+          },
+          "id" : "audioTrigger"
         }
-      ],
-      "color" : "32C659"
+      ]
     },
     {
+      "id" : "795ADF41-5431-403F-A589-279B17A860B2",
       "title" : "Reflect on Appreciation",
-      "color" : "C300C4",
       "duration" : 40,
+      "color" : "C300C4",
       "startTriggers" : [
         {
           "value" : {
@@ -85,23 +93,26 @@
       ]
     },
     {
+      "id" : "4F576BA5-40FD-42F8-B26E-1728BCED28FF",
+      "title" : "Let Go",
       "duration" : 30,
+      "color" : "76E9FE",
       "startTriggers" : [
         {
-          "id" : "audioTrigger",
           "value" : {
             "speak" : {
               "_0" : "Now let go of these thoughts."
             }
-          }
+          },
+          "id" : "audioTrigger"
         }
-      ],
-      "color" : "76E9FE",
-      "title" : "Let Go"
+      ]
     },
     {
-      "color" : "0300AA",
+      "id" : "C781AD62-DB43-4D0C-88F6-A8EC8B4E2EE1",
       "title" : "Feel the Environment",
+      "duration" : 60,
+      "color" : "0300AA",
       "startTriggers" : [
         {
           "value" : {
@@ -111,10 +122,13 @@
           },
           "id" : "audioTrigger"
         }
-      ],
-      "duration" : 60
+      ]
     },
     {
+      "id" : "7C3506D3-8F2A-4524-9D5D-48B9720EF7BE",
+      "title" : "Appreciate Life",
+      "duration" : 120,
+      "color" : "C90000",
       "startTriggers" : [
         {
           "id" : "audioTrigger",
@@ -124,13 +138,13 @@
             }
           }
         }
-      ],
-      "duration" : 120,
-      "color" : "C90000",
-      "title" : "Appreciate Life"
+      ]
     },
     {
+      "id" : "E8A0D00E-9FA5-4692-BC03-DDFA98CF4FC2",
+      "title" : "Gratitude Reflection",
       "duration" : 60,
+      "color" : "32C659",
       "startTriggers" : [
         {
           "value" : {
@@ -140,41 +154,40 @@
           },
           "id" : "audioTrigger"
         }
-      ],
-      "color" : "32C659",
-      "title" : "Gratitude Reflection"
+      ]
     },
     {
+      "id" : "C0A0B5A8-53A0-4FB1-8793-DA42B0901BC4",
       "title" : "Health Appreciation",
-      "color" : "FFCC01",
       "duration" : 60,
+      "color" : "FFCC01",
       "startTriggers" : [
         {
-          "id" : "audioTrigger",
           "value" : {
             "speak" : {
               "_0" : "Take a moment to appreciate your health."
             }
-          }
+          },
+          "id" : "audioTrigger"
         }
       ]
     },
     {
-      "color" : "76E9FE",
+      "id" : "7845276B-8645-4599-BA6F-6615B45E922F",
       "title" : "Open Your Eyes",
+      "duration" : 6,
+      "color" : "76E9FE",
       "startTriggers" : [
         {
-          "id" : "audioTrigger",
           "value" : {
             "speak" : {
               "_0" : "Great. You can gently open your eyes now if they're closed. Notice how you feel"
             }
-          }
+          },
+          "id" : "audioTrigger"
         }
-      ],
-      "duration" : 6
+      ]
     }
   ],
-  "version" : 1,
-  "title" : "🧘‍♂️Guided Meditation on Gratitude"
+  "id" : "829FDF37-DA7C-4CFD-BB9A-136CD3935CFD"
 }
