@@ -1,4 +1,4 @@
-# Timix Template Library
+# (Deprecated) Timix Template Library - Check-out new (Timix Library)[https://aigarden.uk/timix-library]
 
 **A library of Timix templates to help you focus, move, cook, rest, and play.**
 
@@ -6,7 +6,7 @@ Timix templates are ready-made sessions designed for everything from studying an
 Use them as they are, customize them, or create your own to fit your life and rhythm.
 If you can't find a template that suits your needs, you can easily create your own templates with help of [TimixGPT](https://rogy.app/timixgpt).
 
-[Learn more about Timix here.](https://rogy.app/timix)
+[Learn more about Timix here.](https://aigarden.uk/timix)
 
 ---
 
@@ -47,7 +47,7 @@ To add your template independently:
 4. Update the appropriate folder's README by listing your template with a short description and direct link.
 5. Open a Pull Request.
 
-Or simply email me your template at [timix@rogy.app](mailto:timix@rogy.app?subject=Sharing%20a%20Timix%20Template) and I'll add it for you.
+Or simply email me your template at [timix@rogy.app](mailto:timix@aigarden.uk?subject=Sharing%20a%20Timix%20Template) and I'll add it for you.
 
 Thank you for helping expand the library!
 
