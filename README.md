@@ -5,7 +5,7 @@ Check-out new [Timix Library](https://aigarden.uk/timix-library)
 
 Timix templates are ready-made sessions designed for everything from studying and workouts to cooking and board games.  
 Use them as they are, customize them, or create your own to fit your life and rhythm.
-If you can't find a template that suits your needs, you can easily create your own templates with help of (TimixGPT)[https://rogy.app/timixgpt].
+If you can't find a template that suits your needs, you can easily create your own templates with help of [TimixGPT](https://aigarde.uk/timixgpt).
 
 [Learn more about Timix here.](https://aigarden.uk/timix)
 
