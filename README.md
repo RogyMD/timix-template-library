@@ -1,4 +1,5 @@
-# (Deprecated) Timix Template Library - Check-out new (Timix Library)[https://aigarden.uk/timix-library]
+# (Deprecated) Timix Template Library
+Check-out new [Timix Library](https://aigarden.uk/timix-library)
 
 **A library of Timix templates to help you focus, move, cook, rest, and play.**
 
